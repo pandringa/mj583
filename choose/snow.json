@@ -1,0 +1,67 @@
+{
+  "title": "The Snow Day",
+  "startStep": 0,
+  "steps": [
+    {
+      "text": "Your alarm rings, and you groggily look at the time up and realize it's 15 minutes before your class starts. What do you do?",
+      "options": [
+        {"text": "Roll over and go back to sleep.", "goto": 1},
+        {"text": "Hurry out of bed, throw on clothes, and start running to class.", "goto": 2}
+      ]
+    },
+    {
+      "text": "You hit snooze and go back to bed, figuring class won't matter too much and you can get notes from a friend. \nEventually, you wake up and decide to finally get out of the house. Where do you go?",
+      "options": [
+        {"text": "Your favorite resturaunt, to get a snack.", "goto": 3},
+        {"text": "You realize you should probably find a friend from your class, to get the notes.", "goto": 4}
+      ]
+    },
+    {
+      "text": "As you rush to class, you shiver as you realize you forgot a coat. What do you do?",
+      "options": [
+        {"text": "You run home to grab it, deciding you'd rather be late than be cold.", "goto": 5},
+        {"text": "You figure you'll be warm inside soon enough, so you just hurry.", "goto": 6}
+      ]
+    },
+    {
+      "text": "You go to the resturuant, and realize it's closed. Apparently the owner decided to go home early today, writing something about an impending snowstorm. What do you do?",
+      "options": [
+        {"text": "Go to the grocery store to get food.", "goto": 7},
+        {"text": "Go home, hoping you have something in your pantry.", "goto": 8}
+      ]
+    },
+    {
+      "text": "You text the friend you usually sit with, but there's no response. What do you do?",
+      "options": [
+        {"text": "Go back to sleep", "goto": 9},
+        {"text": "Decide to get a snack at your favorite resturaunt", "goto": 3}
+      ]
+    },
+    {
+      "text": "When you get home, you feel your phone buzz with a text from Alert Carolina. \"Classes are cancelled due to the impending snowstorm.\" What do you do?",
+      "options": [
+        {"text": "Decide you could really catch up on some sleep", "goto": 9},
+        {"text": "Decide you need to stock up on food: with 2\" of snow, you never know how long you'll be stranded for.", "goto": 3}
+      ]
+    },
+    {
+      "text": "You get to the building, but it's locked. Suddenly, snow starts falling and you feel a buzz in your pocket from Alert Carolina. \"Classes are cancelled due to the impending snowstorm,\" it says. \n\nYou stand in the cold, shivering. \n\nYou freeze to death."
+    },
+    {
+      "text": "You get to the grocery store, but every aisle is empty. Bread, milk, cheese, even wine – all gone. What do you do?",
+      "options": [
+        {"text": "Go home and hope you have something left to eat.", "goto": 8},
+        {"text": "Get in your car and drive to another grocery store.", "goto": 10}
+      ]
+    },
+    {
+      "text": "When you get home, you see that your pantry is nearly empty. You run out to your car to try to find something, but the snow has already started. Because this is North Carolina, the roads are probably already totally impassable. \n\nYou stay home. \n\nYou starve to death."
+    },
+    {
+      "text": "You crawl back into bed and quickly fall asleep, catching up on the hours and hours you've missed over the last few days. When you wake up, a light coat of snow has fallen, the sun is back out, and the world is peaceful again. \n\nYou've had a pleasant snow day. \n\nYou win."
+    },
+    {
+      "text": "You start driving to the next grocery store, but snow quickly starts falling. This being North Carolina, all other drivers are immediately thrown into a frenzy, and chaos ensues. As cars start piling up left and right, you hear a loud sound from your left driver side door, as a large semi collides with your car. \n\nYou die."
+    }
+  ]
+}
