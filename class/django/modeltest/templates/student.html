@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block content %}
+<a href="{% url 'students'%}">Back to list</a>
+<h2>{{ student.name }}</h2>
+<p>Student Details</p>
+<ul>
+    <li>PID: {{ student.pid }}</li>
+    <li>Current Grade: {{ student.grade }}</li>
+
+</ul>
+{% endblock %}
